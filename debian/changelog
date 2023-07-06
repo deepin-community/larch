@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+larch (1.1.2-2.1) unstable; urgency=medium
 
-  * Initial release
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Holger Levsen <holger@debian.org>  Mon, 13 Jun 2022 16:10:23 +0200
+
+larch (1.1.2-2) unstable; urgency=medium
+
+  [ Cédric Boutillier ]
+  * Bump debhelper compatibility level to 9
+  * Remove version in the gem2deb build-dependency
+  * Use https:// in Vcs-* fields
+  * Use https:// in Vcs-* fields
+  * Bump Standards-Version to 3.9.7 (no changes needed)
+  * Run wrap-and-sort on packaging files
+
+  [ Martín Ferrari ]
+  * debian/control:
+    - Correct Section to "mail".
+    - Add deprecation notice.
+    - Bump Standards-Version to 3.9.8 (no changes needed)
+
+ -- Martín Ferrari <tincho@debian.org>  Sat, 19 Nov 2016 15:28:08 +0000
+
+larch (1.1.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #714405)
+
+ -- Martín Ferrari <tincho@debian.org>  Wed, 26 Mar 2014 02:08:18 +0000
